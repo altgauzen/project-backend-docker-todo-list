@@ -7,7 +7,7 @@ services:
       - "todoback-end"
     environment:
       - FRONT_HOST=todofront-end
-  todofrontend:
+  todofront-end:
     image: todofrontend
     ports:
       - 3000:3000
@@ -15,7 +15,7 @@ services:
       - "todoback-end"
     environment:
       - REACT_APP_API_HOST=todoback-end
-  todobackend:
+  todoback-end:
     image: todobackend
     ports:
       - 3001:3001
