@@ -3,18 +3,18 @@ services:
   todotests:
     image: todotests
     depends_on:
-      - "todofrontend"
-      - "todobackend"
+      - "todofront-end"
+      - "todoback-end"
     environment:
-      - FRONT_HOST=todofrontend
+      - FRONT_HOST=todofront-end
   todofrontend:
     image: todofrontend
     ports:
       - 3000:3000
     depends_on:
-      - "todobackend"
+      - "todoback-end"
     environment:
-      - REACT_APP_API_HOST=todobackend
+      - REACT_APP_API_HOST=todoback-end
   todobackend:
     image: todobackend
     ports:
