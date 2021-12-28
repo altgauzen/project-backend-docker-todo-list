@@ -1,6 +1,16 @@
-### Termos e acordos
+# project-backend-docker-todo-list
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+## Meus Comentários
+
+Este foi um projeto individual feito na Trybe no Módulo de Back-end onde aprendi a utilizar containers Docker.
+Aprendi neste Projeto a:
+- Usar comandos dockers no CLI - Interface de linha de comando;
+- Criar um contêiner Docker para uma aplicação de front-end;
+- Criar um contêiner Docker para uma aplicação de back-end;
+- Criar um contêiner Docker para uma aplicação de testes;
+- Orquestrar os três contêineres utilizando o Docker compose.
+
+Aproveitamento: 91.67% de aprovação pelos avaliadores da Trybe.
 
 ---
 
